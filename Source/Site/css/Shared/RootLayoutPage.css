@@ -16,6 +16,7 @@ header {
 #mainContentWrapper {
   display: table;
   width: 100%;
+  min-height: 400px;
 }
 #mainContentWrapper #main_content {
   display: table-row;
