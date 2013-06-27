@@ -1,9 +1,9 @@
 ﻿body {
 	background: #CACACA url('../../images/shared/RootLayoutPage/background.png') repeat-x;
-	font-family: "Trebuchet MS", Verdana, serif
+	font-family: Arial, sans-serif;
 }
 header {
-	width: 100%
+	width: 100%;
 }
 #sub_header {
 	text-align: right;
@@ -64,31 +64,28 @@ header {
 }
 #footer {
 	text-align: center;
-	font-size: 12px;
-	margin: 10px auto
+	margin: 10px auto;
+	font-size: .8em;
 }
 .content {
 	padding: 0 30px 0 30px;
-	font-size: 12px
 }
 .menu {
 	width: 139px;
 	padding: 0 20px 0 20px;
 	border-left: #8C8484 1px solid;
-	font-size: 12px
 }
 @headerColor: #a40008;
 header h1 {
 	margin-bottom: 0px;
-	font-size: 28px;
 	font-weight: bold;
-	color: #FFF
+	color: #FFF;
 }
 .content h2 {
 	margin-top: 0px;
-	font-size: 18px;
 	font-weight: bold;
-	color: @headerColor
+	font-size: 1.4em;
+	color: @headerColor;
 }
 #clear {
 	display: block;
@@ -98,13 +95,14 @@ header h1 {
 	overflow:hidden;
 }
 .menu_title {
-	font-size: 18px;
 	font-weight: bold;
-	color: @headerColor
+	font-size: 1.4em;
+	color: @headerColor;
 }
 .menu ul {
 	margin: 0;
-	padding: 10px 0 20px 15px
+	font-size: .9em;
+	padding: 10px 0 20px 15px;
 }
 .menu li {
 	padding-top: 2px;
@@ -113,28 +111,28 @@ header h1 {
 a {
 	color: @headerColor;
 	font-weight: bold;
-	text-decoration: none
+	text-decoration: none;
 }
 a:hover {
 	color: @headerColor;
 	font-weight: bold;
-	text-decoration: underline
+	text-decoration: underline;
 }
 a.menu_link {
 	color: #000000;
 	font-weight: bold;
-	text-decoration: underline
+	text-decoration: underline;
 }
 a.menu_link:hover {
 	color: @headerColor;
 	font-weight: bold;
-	text-decoration: none
+	text-decoration: none;
 }
 .quote {
 	margin: 20px;
 	text-align: center;
 	font-weight: bold;
-	font-style: italic
+	font-style: italic;
 }
 
 @media (min-width: 1000px) {

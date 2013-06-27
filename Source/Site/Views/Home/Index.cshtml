@@ -4,7 +4,23 @@
 	ViewBag.Title = "ImageMapResize Home";
 }
 
-<h2>Basic Information</h2>
+<h2>Project Goal</h2>
+<p>
+	Make client side image maps work in responsive websites.  Keep the implementation of the plugin as simple as possible and keep the size of the plugin as small as possible.  
+</p>
+
+<h2>The Problem</h2>
+
+<p>
+	Since client side images maps are created for an image at its unscaled size when you scale an image up or down in responsive design the coordinates no longer work.  
+</p>
+
+<h2>The Plan</h2>
+
+<p>
+	Solve this problem with a simple jQuery plug-in.  The plugin will store the original coordinates and scale them with the image as the page resizes.  The scaling will only work when the 
+	aspect ratio of the image is preserved.  
+</p>
 
 
 
