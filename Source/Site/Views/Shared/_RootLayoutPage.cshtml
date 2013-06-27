@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+	<meta name="description" content="Website short description." />
+<meta name="keywords" content="website main keywords" />
+    <title>@ViewBag.Title</title>
+	@Styles.Render("~/cssBundles/Shared/RootLayoutPage")
+	@RenderSection("head", false)
+</head>
+<body>
+
+<div id="container">
+
+<header><h1>ImageMapResize</h1></header>
+
+<div id="sub_header">jQuery Plugin to Scale Client Side Image Maps for Responsive Web Design</div>
+
+<div id="main_content_top">
+	<img id="contentUpperLeftCorner" src="~/images/Shared/RootLayoutPage/contentUpperLeftCorner.gif" />
+	<img id="contentUpperRightCorner" src="~/images/Shared/RootLayoutPage/contentUpperRightCorner.gif" />
+</div>
+
+<div id="mainContentWrapper">
+	<div id="main_content">
+		<div id="mainContentLeftGutter"></div>
+		<div class="content">
+			@RenderBody()
+		</div>
+
+		<div class="menu">
+		<div class="menu_title">Menu</div>
+			<ul>
+				<li>@Html.ActionLink("Home", "Index", "Home")</li>
+				<li>@Html.ActionLink("License", "Index", "License")</li>
+				<li>@Html.ActionLink("Usage", "Index", "Usage")</li>
+				<li>@Html.ActionLink("Download", "Index", "Download")</li>
+				<li>@Html.ActionLink("Contribute", "Index", "Contribute")</li>
+			</ul>
+		</div>
+		<div id="mainContentRightGutter"></div>
+	</div>
+</div>
+
+<div id="main_content_bottom">
+	<img id="contentLowerLeftCorner" src="~/images/Shared/RootLayoutPage/contentLowerLeftCorner.gif" />
+	<img id="contentLowerRightCorner" src="~/images/Shared/RootLayoutPage/contentLowerRightCorner.gif" />
+</div>
+
+<div id="footer"><strong>Copyright &copy; 2013</strong> | <b>Based on a Design by</b> <a href="http://www.oswd.org/design/information/id/3697">dboy</a></div>
+
+</div>
+
+</body>
+</html>
