@@ -147,9 +147,6 @@
     <Content Include="Global.asax" />
     <Content Include="Images\Home\Index\SampleShapes.gif" />
     <Content Include="Images\Shared\RootLayoutPage\background.png" />
-    <Content Include="Images\Shared\RootLayoutPage\background_bottom.gif" />
-    <Content Include="Images\Shared\RootLayoutPage\background_content.gif" />
-    <Content Include="Images\Shared\RootLayoutPage\background_top.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentLeftSlice.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentLowerLeftCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentLowerRightCorner.gif" />
@@ -159,6 +156,10 @@
     <Content Include="Images\Shared\RootLayoutPage\contentUpperRightCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperSlice.gif" />
     <Content Include="js\modernizr-2.6.2.js" />
+    <None Include="Scripts\jquery-1.10.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.1.js" />
+    <Content Include="Scripts\jquery-1.10.1.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -167,6 +168,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Scripts\jquery-1.10.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
