@@ -169,6 +169,7 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-1.10.1.min.map" />
+    <Content Include="Views\Shared\_MainMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
