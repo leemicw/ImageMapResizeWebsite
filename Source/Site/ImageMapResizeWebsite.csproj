@@ -145,6 +145,7 @@
       <DependentUpon>RootLayoutPage.less</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
+    <Content Include="Images\Home\Index\SampleShapes.gif" />
     <Content Include="Images\Shared\RootLayoutPage\background.png" />
     <Content Include="Images\Shared\RootLayoutPage\background_bottom.gif" />
     <Content Include="Images\Shared\RootLayoutPage\background_content.gif" />
