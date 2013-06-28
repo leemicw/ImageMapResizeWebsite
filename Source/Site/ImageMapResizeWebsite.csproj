@@ -140,6 +140,7 @@
     <Content Include="css\Home\Index.css">
       <DependentUpon>Index.less</DependentUpon>
     </Content>
+    <Content Include="css\Shared\Reset.css" />
     <Content Include="css\Shared\RootLayoutPage.css">
       <DependentUpon>RootLayoutPage.less</DependentUpon>
     </Content>
@@ -156,6 +157,7 @@
     <Content Include="Images\Shared\RootLayoutPage\contentUpperLeftCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperRightCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperSlice.gif" />
+    <Content Include="js\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
