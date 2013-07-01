@@ -15,6 +15,9 @@ namespace ImageMapResizeWebsite
 				));
 
 			bundles.Add(new StyleBundle("~/cssBundles/Home/Index").Include("~/css/Home/Index.css"));
+
+			//this needs to be seperate so it can be included after all the css files are loaded
+			bundles.Add(new ScriptBundle("~/jsBundles/respond").Include("~/Scripts/respond.js"));
 		}
 
 	}

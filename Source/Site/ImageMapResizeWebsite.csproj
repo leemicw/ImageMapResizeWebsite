@@ -155,11 +155,13 @@
     <Content Include="Images\Shared\RootLayoutPage\contentUpperLeftCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperRightCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperSlice.gif" />
-    <Content Include="js\modernizr-2.6.2.js" />
     <None Include="Scripts\jquery-1.10.1.intellisense.js" />
+    <Content Include="js\jquery.ImageMapResize.js" />
     <Content Include="Scripts\jquery-1.10.1.js" />
     <Content Include="Scripts\jquery-1.10.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -173,7 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
