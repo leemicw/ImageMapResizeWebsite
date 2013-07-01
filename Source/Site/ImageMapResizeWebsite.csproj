@@ -137,6 +137,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="css\Contribute\Index.css">
+      <DependentUpon>Index.less</DependentUpon>
+    </Content>
     <Content Include="css\Home\Index.css">
       <DependentUpon>Index.less</DependentUpon>
     </Content>
@@ -156,6 +159,7 @@
     <Content Include="Images\Shared\RootLayoutPage\contentUpperRightCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperSlice.gif" />
     <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="css\Contribute\Index.less" />
     <None Include="Scripts\jquery-1.10.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.1.js" />
     <Content Include="Scripts\jquery-1.10.1.min.js" />

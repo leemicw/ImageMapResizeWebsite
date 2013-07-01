@@ -4,9 +4,27 @@
     ViewBag.Title = "Index";
 }
 
+@section head{
+	@Styles.Render("~/cssBundles/Contribute/Index")
+}
+
 <h2>Contributing</h2>
 
 <p>
-	We don't have a lot of fancy documentation or build processes yet.  If you find a bug or want to propose a better way to do something we plan on using the basic Fork, Commit, Pull Request, Merge workflow.
+	If you find a bug or want to propose a better way to do something we plan on using the basic Fork, Commit, Pull Request, Merge workflow.
 	This is a github article on <a href="https://help.github.com/articles/fork-a-repo">getting started by forking and making changes to repositories</a>.
 </p>
+
+<p>
+	Here is the build process.  Its basically for creating the zip file we host on the site for downloading.  
+</p>
+
+<ol>
+	<li>Install <a href="http://help.github.com/mac-git-installation">Git</a></li>
+	<li>Install <a href="http://nodejs.org/">Node</a></li>
+	<li>Install Grunt - This is delivered as a node package through the node package manager (npm)<ul><li>npm install -g grunt-cli</li></ul>(You may need to run this with sudo or in an Administrative Command Prompt)</li>
+	<li>Fork the <a href="https://github.com/leemicw/ImageMapResize">ImageMapResize Repository</a> on GitHub</li>
+	<li>Clone your copy of the ImageMapResize Repository</li>
+	<li>Install Build Dependances, in the directory you have the code in run this command<ul><li>npm install</li></ul></li>
+	<li>Build the project, in the directory you have the code in run this command<ul><li>grunt</li></ul></li>
+</ol>
