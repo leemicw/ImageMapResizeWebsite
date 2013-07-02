@@ -1,0 +1,46 @@
+﻿@model ImageMapResizeWebsite.ViewModels.Usage.UsageIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section head{
+	@Styles.Render("~/cssBundles/Usage/Index")
+}
+
+
+<h2>Usage</h2>
+
+<p>
+	Below is sample html/javascript to show how to use the Image Map Resize plug-in.
+</p>
+
+<pre style="margin:0px;float:left;">
+	<code style="width:100%;float:left;margin:0px;text-align:left;padding:0px;">
+		<span class="tag">&lt;!DOCTYPE html&gt;</span>
+		<span class="tag">&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;</span>
+		<span class="tag">&lt;head&gt;</span>
+			<span class="tag">&lt;title&GT;Image Map Resize&lt;/title&gt;</span>
+			<span class="tag">&lt;meta name="viewport" content="width=device-width" /&gt;</span>
+			<span class="tag">&lt;script src="jquery.ImageMapResize.js" type="text/javascript"&gt;&lt;/script&gt;</span>
+		<span class="tag">&lt;/head&gt;</span>
+		<span class="tag">&lt;body&gt;</span>
+		<span class="tag">&lt;div id="container"&gt;</span>
+			<span class="tag">&lt;header&gt;&lt;h1&gt;ImageMapResize&lt;/h1&gt;&lt;/header&gt;</span>			<span class="tag">&lt;div id="divImgContainer"&gt;</span>
+				<span class="tag">&lt;script type="text/javascript"&gt;</span>
+					<span class="pln">$(document).ready(function () {</span>
+						<span class="pnl">$('#sampleShapes').ImageMapResize({ origImageWidth: "800" });</span>
+					<span class="pln">});</span>
+				<span class="tag">&lt;/script&gt;</span>
+				<span class="tag">&lt;img id="sampleShapes" src="~/images/Home/Index/SampleShapes.gif" alt="Image Map Sample" usemap="#sampleShapesMap" /&gt;</span>
+				<span class="tag">&lt;map name="sampleShapesMap"&gt;</span>
+					<span class="tag">&lt;area shape="rect" alt="" title="" coords="100,112,192,184" href="http://www.google.com" /&gt;</span>
+					<span class="tag">&lt;area shape="circle" alt="" title="" coords="355,148,55" href="http://www.bing.com" /&gt;</span>
+					<span class="tag">&lt;area shape="poly" alt="" title="" coords="564,95,537,153,558,207,614,233,668,214,694,159,677,103,618,77,598" href="http://www.yahoo.com" /&gt;</span>
+					<span class="pnl">&lt;!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --&gt;</span>
+				<span class="tag">&lt;/map&gt;</span>
+			<span class="tag">&lt;/div&gt;</span>
+		<span class="tag">&lt;/div&gt;</span>
+	</code>
+</pre>
+	

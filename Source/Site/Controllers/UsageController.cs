@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace ImageMapResizeWebsite.Controllers
 {
-    public class HomeController : Controller
+    public class UsageController : Controller
     {
-        
         public ActionResult Index()
         {
             return View();
         }
-				
+        
     }
 }
