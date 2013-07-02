@@ -167,6 +167,7 @@
     <Content Include="css\Contribute\Index.less" />
     <Content Include="css\Usage\Index.less" />
     <None Include="Scripts\jquery-1.10.1.intellisense.js" />
+    <Content Include="Images\Usage\Index\CodeSample.jpg" />
     <Content Include="js\jquery.ImageMapResize.js" />
     <Content Include="Scripts\jquery-1.10.1.js" />
     <Content Include="Scripts\jquery-1.10.1.min.js" />
