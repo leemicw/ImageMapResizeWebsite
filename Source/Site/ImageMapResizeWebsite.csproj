@@ -163,7 +163,6 @@
     <Content Include="Images\Shared\RootLayoutPage\contentUpperLeftCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperRightCorner.gif" />
     <Content Include="Images\Shared\RootLayoutPage\contentUpperSlice.gif" />
-    <Content Include="js\modernizr-2.6.2.js" />
     <Content Include="css\Contribute\Index.less" />
     <Content Include="css\Usage\Index.less" />
     <None Include="Scripts\jquery-1.10.1.intellisense.js" />
